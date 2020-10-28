@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'BellGothicStd-Black';
+  src: url(https://process.filestackapi.com/AFx79KQcETNaOd4KM3pL4z/cache=expiry:max/https://printedmatter-linkedbyair.herokuapp.com/assets/BellGothicStd-Black-3eccf5a15a0b2ba5013c813f03d5e1b8.eot?#iefix) format("embedded-opentype"), url(https://process.filestackapi.com/AFx79KQcETNaOd4KM3pL4z/cache=expiry:max/https://printedmatter-linkedbyair.herokuapp.com/assets/BellGothicStd-Black-04c5f615aef48570b1894743a2cf5327.otf) format("opentype"), url(https://process.filestackapi.com/AFx79KQcETNaOd4KM3pL4z/cache=expiry:max/https://printedmatter-linkedbyair.herokuapp.com/assets/BellGothicStd-Black-4e44e53eada07ad8e562d58db9ab43a8.woff) format("woff"), url(https://process.filestackapi.com/AFx79KQcETNaOd4KM3pL4z/cache=expiry:max/https://printedmatter-linkedbyair.herokuapp.com/assets/BellGothicStd-Black-eef1111f16b852b7fe13e8b721d77f3e.ttf) format("truetype"), url(https://process.filestackapi.com/AFx79KQcETNaOd4KM3pL4z/cache=expiry:max/https://printedmatter-linkedbyair.herokuapp.com/assets/BellGothicStd-Black-9fe251ead756e0d4c884ae73744abe55.svg#BellGothicStd-Black) format("svg");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'HelveticaRoundedLTStd-Bd';
+  src:local("/Users/jaypark/Desktop/helveticaroundedltstdbd/HelveticaRoundedLTStd-Bd.otf");
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+    font-family: 'ArialNova-Bold';
+    src:local("/Users/jaypark/Desktop/printed matter/pm fonts/ArialNova-Bold.ttf");
+    font-weight: bolder;
+}
+
+body {
+  display: static;
+  width: 500px;
+  margin: 10% auto;
+}
+
+header h1 {
+  font-family: 'HelveticaRoundedLTStd-Bd';
+  margin: 2% auto;
+  width: 200px;
+  color:#89bdfa;
+  cursor: pointer;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+header input {
+  font-family: 'ArialNova-Bold';
+  margin: 2% 0 5% 20%;
+  border: none;
+}
+
+header button {
+  font-family: 'ArialNova-Bold';
+  margin-left: 6%;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  font-family: 'ArialNova-Bold';
+  margin: 2% 85% 0 15%;
+  padding: 0;
+  width: 60%;
+}
+
+li {
+  list-style-type: none;
+  width: 325px;
+  margin: 3% 0;
+}
+
+.buttons {
+  float: right;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin: 2px;
+  display: inline-block;
+  background-color: #87c540;
+  width: 10px;
+  height: 10px;
+}
+
+.exit {
+  margin: 2px;
+  display: inline-block;
+  background-color: #de3404;
+  width: 10px;
+  height: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #cacaca;
+}
